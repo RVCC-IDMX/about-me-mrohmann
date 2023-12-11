@@ -4,10 +4,13 @@ body{
     background-color: #FFDB4A;
     color: #6792bf;
 }
-h1{
+h1,h2{
     font-size: 60px;
+    font-family: Montserrat;
+    text-align: center;
 }
-h2, h3, h4, h5, h6{
+
+h3, h4, h5, h6{
     font-family: Montserrat;
     font-size: 20px;
     text-align: center;
@@ -24,6 +27,7 @@ header{
     text-align: center;
     padding: 1px;
     border: 6px solid #4AA2FF;
+    border-radius: 25px;
     margin: 10px;
 }
 
@@ -31,24 +35,75 @@ header{
     width: 300px;
 }
 
+/* Bio Section */
+
 #bio{
     text-align: center;
 }
 
-#hobbies{
+/* Hobbies Section */
+#hobbies  {
     text-align: center;
-   
+    
 }
-
-ul li{
+#hobbies ul li{
     display: inline-block;
     text-align: center;
-    margin: .5em 0;
+    margin: .5em;
     background: #657280;
     color: #FFdb4a;
     border-radius: 25px;
     border: 3px solid #4AA2FF;
     width:300px;
+   
 }
+
+/*Gallery Section */
+
+#gallery {
+    border: 6px solid  #4AA2FF;
+    border-radius: 25px;
+}
+
+#gallery img {
+    max-width: 100%;
+}
+
+#gallery figure {
+    text-align:center;
+}
+
+
+/*Literature */
+
+#lit {
+    max-width: 100%;
+    border: 6px solid #4AA2FF;
+    border-radius: 25px;
+    padding: .75rem 3rem; 
+    margin: 10px 0;
+    
+}
+
+#lit div{
+    max-width: 60rem;
+    background-color: #4AA2FF;
+    color: #FFDB4A;
+    padding:10px;
+    border-radius: 25px;
+}
+
+#lit div p:first-line{
+    color:#657280;
+    font-weight: bold;
+    clear:both;
+    text-shadow: 5px 5px 5px #FFDB4A;
+    font-size: larger;
+    text-indent: 30px;
+
+}
+
+
+   
 
 
