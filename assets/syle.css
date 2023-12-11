@@ -1,26 +1,27 @@
 body{
     font-family: Hind;
+    font-size:17px;
     background-color: #FFDB4A;
-    color: #6792bf
-
+    color: #6792bf;
 }
 
 h1, h2, h3, h4, h5, h6{
     font-family: Montserrat;
-    font-size: 25pt;
+    font-size: 20pt;
     
 }
 header{
     text-align: center;
 }
 
-#hero, footer{
+
+#hero, footer {
     color:#FFDB4A;
     background-color: #657280;
     text-align: center;
-    padding:10px;
+    padding: 1px;
     border: 6px solid #4AA2FF;
-  
+    margin: 10px;
 }
 
 #hero img {
