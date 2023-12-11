@@ -86,7 +86,7 @@ header{
 /*Literature */
 
 #lit {
-    max-width: 100%;
+    
     border: 6px solid #4AA2FF;
     border-radius: 25px;
     padding: .75rem 3rem; 
@@ -95,38 +95,67 @@ header{
 }
 
 #lit div{
-    display: block;
-    align-items: center;
     background-color: #4AA2FF;
     color: #FFDB4A;
-    padding:30px;
+    padding:20px;
     border-radius: 25px;
    
 }
 
-#lit div p:first-line{
-    color:#657280;
+#lit div p:first-child:first-letter{
+    color:black;
     font-weight: bold;
     clear:both;
     text-shadow: 5px 5px 5px #FFDB4A;
-    font-size:x-large;
+    font-size:4em;
+    padding:10px;
+    line-height: .60rem;
+    float:left;
+    border:4px  dashed #FFDB4A; 
+    margin-right:.1em;
+    border-radius: 25px;
 }
-
+/* Tablet Size */
 @media screen and (min-width:60em) {
     figure{ 
         display:grid;
         grid-template-columns: 2fr 1fr;
     }
-    
+
     figcaption{
         display:flex;
         justify-content: center;
         align-items: center;
         font-size: 2rem;
         margin-left: 1rem;
+    }
+
+    #lit div {
+        max-width: 100%;
+        columns: 20rem;
 
     }
 
+}
+
+@media screen and (min-width:100em) {
+    #gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    hr{
+    display:none;
+    }
+
+    #gallery h2{
+        display:block;
+        grid-column: 1/-1;
+    }
+
+    figure {
+        display:block;
+    }
 }
    
 
