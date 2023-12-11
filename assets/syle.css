@@ -1,0 +1,33 @@
+body{
+    font-family: Hind;
+    background-color: #FFDB4A;
+    color: #6792bf
+
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Montserrat;
+    font-size: 25pt;
+    
+}
+header{
+    text-align: center;
+}
+
+#hero, footer{
+    color:#FFDB4A;
+    background-color: #657280;
+    text-align: center;
+    padding:10px;
+    border: 6px solid #4AA2FF;
+  
+}
+
+#hero img {
+    width: 300px;
+}
+
+#bio{
+    text-align: center;
+}
+
