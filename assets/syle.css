@@ -115,6 +115,21 @@ header{
     margin-right:.1em;
     border-radius: 25px;
 }
+
+/*Video Section */
+
+#myVideo{
+    border: 6px solid  #4AA2FF;
+    border-radius: 25px;
+    width:100%;
+    text-align: center;
+
+}
+
+#myVideo p{
+    padding:2em;
+}
+
 /* Tablet Size */
 @media screen and (min-width:60em) {
     figure{ 
