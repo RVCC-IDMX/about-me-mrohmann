@@ -127,13 +127,50 @@ header{
 }
 
 #myVideo p{
-    padding:2em;
+    padding:2em auto;
 }
 
 /* contact Form */
 #formElements{
     display: grid;
+    row-gap: .5em;
 }
+
+#contact{
+    padding:1rem;
+    max-width: 100%;
+    margin: 2rem auto;
+    border-radius: 25px;
+    border: 6px solid #4AA2FF;
+}
+
+#fieldset{
+    border:6px solid #4AA2FF;
+    margin-top:1em;
+    margin-bottom:1em;
+    border-radius: 25px;
+}
+legend{
+    background-color: #4AA2FF;
+    color:#FFDB4A;
+    text-align: center;
+    font-weight: bold;
+}
+
+#contact input, #contact textarea, #contact select, #contact button #contact reply{
+    padding:.5em;
+    font-size:1rem;
+    border-radius: 25px;
+    text-align: center;
+
+}
+
+#contact button{
+    background-color: #657280;
+    color:#FFDB4A;
+}
+
+
 
 
 /* Tablet Size */
