@@ -50,13 +50,20 @@ main{
 /* style all a tags in header and then on hover*/
 .navbar-links a {
     color: whitesmoke;
-    background-attachment: #333;
+    background-color: #333;
     font-size: 1.5rem;
     padding: 1rem 1.25rem;
     letter-spacing: 2px;
     text-decoration: none;
     display: inline-block;  
+}
 
+.navbar-links a:hover,
+.navbar-links a:focus{
+    color: #333;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    outline: none;
 }
 
 /* media query for non-mobile nav bar min-width set to width of nav elements such that no text wraps */
