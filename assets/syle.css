@@ -1,8 +1,8 @@
 body{
     font-family: Hind;
     font-size:17px;
-    background-color: #FFDB4A;
-    color: #6792bf;
+    background-color: #9B22B6;
+    color: #F0E991;
 }
 h1,h2{
     font-size: 60px;
@@ -21,13 +21,17 @@ header{
     text-align: center;
 }
 
+footer a {
+    color:#F0E991;
+    text-decoration: none;
+}
 
 #hero, footer {
-    color:#FFDB4A;
-    background-color: #657280;
+    color:#F0E991;
+    background-color: #1E22AA;
     text-align: center;
     padding: 1px;
-    border: 6px solid #4AA2FF;
+    border: 6px solid #05C3DD;
     border-radius: 25px;
     margin: 10px;
 }
@@ -41,6 +45,11 @@ header{
 #bio{
     text-align: center;
 }
+
+#bio a {
+    text-decoration: none;
+}
+
 
 /* Hobbies Section */
 #hobbies  {
@@ -59,10 +68,11 @@ header{
     
     text-align: center;
     margin: .5em;
-    background: #657280;
-    color: #FFdb4a;
+    background-color: #1E22AA;
+    color: #F0E991;
     border-radius: 25px;
-    border: 3px solid #4AA2FF;
+    border: 3px solid #05C3DD;
+    text-decoration: none;
     
    
 }
@@ -70,7 +80,7 @@ header{
 /*Gallery Section */
 
 #gallery {
-    border: 6px solid  #4AA2FF;
+    border: 6px solid  #05C3DD;
     border-radius: 25px;
 }
 
@@ -87,7 +97,7 @@ header{
 
 #lit {
     
-    border: 6px solid #4AA2FF;
+    border: 6px solid #05C3DD;
     border-radius: 25px;
     padding: .75rem 3rem; 
     margin: 10px 0;
@@ -95,23 +105,23 @@ header{
 }
 
 #lit div{
-    background-color: #4AA2FF;
-    color: #FFDB4A;
+    background-color: #1E22AA;
+    color: #F0E991;
     padding:20px;
     border-radius: 25px;
    
 }
 
 #lit div p:first-child:first-letter{
-    color:black;
+    color:#C92FBF;
     font-weight: bold;
     clear:both;
-    text-shadow: 5px 5px 5px #FFDB4A;
+    text-shadow: 5px 5px 5px #F0E991;
     font-size:4em;
-    padding:10px;
+    padding:25px;
     line-height: .60rem;
     float:left;
-    border:4px  dashed #FFDB4A; 
+    border: 6px  dashed #F0E991; 
     margin-right:.1em;
     border-radius: 25px;
 }
@@ -151,8 +161,8 @@ header{
     border-radius: 25px;
 }
 legend{
-    background-color: #4AA2FF;
-    color:#FFDB4A;
+    background-color: #1E22AA;
+    color:#F0E991; 
     text-align: center;
     font-weight: bold;
 }
@@ -166,11 +176,27 @@ legend{
 }
 
 #contact button{
-    background-color: #657280;
-    color:#FFDB4A;
+    background-color: #1E22AA;
+    color:#F0E991;
 }
 
-
+/* CSS Animation */
+#lit .ball {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #4AA2FF;
+  
+    animation: bounce 0.5s;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(.5,0.05,1,.5);
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes bounce {
+    from { transform: translate3d(0, 0, 0);     }
+    to   { transform: translate3d(0, 1.25rem, 0); }
+  }
 
 
 /* Tablet Size */

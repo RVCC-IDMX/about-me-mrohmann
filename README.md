@@ -33,5 +33,10 @@ The Vaporwave color palette is inspired by the aesthetics of the 1980s and 1990s
 https://colorpalettes.io/vaporwave-color-palette/
 https://color.adobe.com/create/color-accessibility
 
+https://css-tricks.com/css-animations-vs-web-animations-api/
+https://www.w3schools.com/css/css3_animations.asp
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations
+https://codeburst.io/tutorial-make-a-bouncing-ball-entirely-with-css-1e7e3c853a50
+
 #### License
 [MIT](https://choosealicense.com/licenses/mit/)

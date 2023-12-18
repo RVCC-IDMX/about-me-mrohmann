@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About Mike Rohmann</title>
+  <link rel="icon" type="image/x-icon" href="/assets/img/MR Logo.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Montserrat:wght@900&display=swap" rel="stylesheet">
@@ -13,14 +14,15 @@
 
 <body>
   <header>
-    <!--  <img src="assets\img\bob.svg" alt="Bob" width = "100" height = "100">
-     <h1>Web Dev 1</h1> -->
+
     <nav class="navbar">
       <div class="logo">
         <img
-          src="/assets/img/bob.svg"
+          src="/assets/img/MR Logo.png"
           class="log-img"
-          alt="Blue Origami logo"
+          alt="MR Logo"
+          width="100"
+          height="100"
         />
         <h1 class="logo-title">Web Dev I - Online!</h1>          
       </div>
@@ -51,18 +53,18 @@
             <h2>Biography</h2>
             <div>
                  <h3>Plans for the future </h3>   
-                 <p>I hope to someday turn my hobby of home automation and security research into a full time profession.</p>
+                 <p>I hope to someday turn my hobby of home automation and security research into a full time profession. I currently spend my free time building and deploying sensor devices based on the esp32 microcontroller to control various aspects of my smart home. My favorite implementations so far have been circadian rythim base lights and room by room presence detection</p>
 
                  <h3>A little about my past</h3>
-                 <p>I am returning back to school after 10 years away working as a professional chef. I attended culinary school and worked in fine dining as well as for private clients up and down the east coast."</p>
+                 <p>I am returning back to school after 10 years away working as a professional chef. I attended culinary school at the Culinary Institute of America and worked in fine dining as well as for private clients up and down the east coast. Check out some of my dishes below! </p>
 
                  <p><a href="http://instagram.com/chef_rohmann">My Food Photos</a></p>
 
                  <h3>What do you do besides Computers and technology?</h3>
-                 <p>I recently took up the sport of disc golfing where I play in a weekly league in North Jersey. I am an avid documentary buff and consume video essays at a voracious speed. </p>
+                 <p>I recently took up the sport of disc golfing where I play in a weekly league in North Jersey at Greystone Disc Golf Course. I am an avid documentary buff and consume video essays at a voracious speed.  </p>
 
                  <h3>Because everyone always asks!</h3>
-                 <p>My favorite dish to cook is roast pork tenderloin with a fig demi glace and chive smashed red bliss potatoes.</p>
+                 <p>My favorite dish to cook is roast pork tenderloin with a fig demi glace and chive smashed red bliss potatoes. Im working on a website to share all of my favorite recipes so stay tuned!</p>
             </div>
 
           </section>
@@ -77,7 +79,7 @@
                 <li>Car Modification</li>
                 <li>Golf Club Assembly</li>
               </ul>
-          </section>
+          </section> 
 
           <section id="gallery">
             <h2>Photo Gallery</h2>
@@ -107,30 +109,52 @@
           </section>
           
           <article id="lit">
-            <h2>A passage from the life of Samuel Johnson</h2>
+            <h2>Bringing Web Designs to Life with CSS Animation</h2>
             <div>
-              <p>Next day we got to Harwich to dinner; and my passage in the packet-boat to Helvoetsluys being secured, and my baggage put on board, we dined at our inn by ourselves. I happened to say it would be terrible if he should not find a speedy opportunity of returning to London, and be confined to so dull a place. JOHNSON. 'Don't Sir, accustom yourself to use big words for little matters. It would NOT be TERRIBLE, though I WERE to be detained some time here.'</p>
 
-              <p>We went and looked at the church, and having gone into it and walked up to the altar, Johnson, whose piety was constant and fervent, sent me to my knees, saying, 'Now that you are going to leave your native country, recommend yourself to the protection of your CREATOR and REDEEMER.'</p>
+              <p>In the vibrant world of web design, the ability to animate elements is not just a feature—it's a doorway to enhanced interactivity and user engagement. CSS animations breathe life into static pages, making the user experience more dynamic and engaging. They allow elements to gracefully transition between styles, adding depth and personality to web interfaces Unlike static designs, animations can guide a user's attention, indicate actions, and add a layer of interactivity to a web page. In this blog post, we'll delve into the essentials of CSS animations, exploring how they work, their advantages, and some best practices for implementing them effectively..</p>
 
-              <p>After we came out of the church, we stood talking for some time together of Bishop Berkeley's ingenious sophistry to prove the non-existence of matter, and that every thing in the universe is merely ideal. I observed, that though we are satisfied his doctrine is not true, it is impossible to refute it. I never shall forget the alacrity with which Johnson answered, striking his foot with mighty force against a large stone, till he rebounded from it, 'I refute it THUS.'</p>
+              <p>The foundation of CSS animations lies in the @keyframes rule, which allows designers to define the stages and style changes that an element will undergo during an animation. This is where the magic happens – by specifying keyframes, you can create complex animations that go beyond simple transitions. To control these animations, CSS offers a suite of properties such as animation-name, animation-duration, animation-timing-function, animation-delay, animation-iteration-count, and animation-direction. These properties give you precise control over how the animation behaves, from its speed and duration to its repetition and direction.</p>
 
-              <p>My revered friend walked down with me to the beach, where we embraced and parted with tenderness, and engaged to correspond by letters. I said, 'I hope, Sir, you will not forget me in my ahsence.' JOHNSON. 'Nay, Sir, it is more likely you should forget me, than that I should forget you.' As the vessel put out to sea, I kept my eyes upon him for a considerable time, while he remained rolling his majestick frame in his usual manner: and at last I perceived him walk back into the town, and he disappeared.</p>
+              <p>Imagine a simple animation of a ball bouncing. The CSS keyframes define the movement (up and down motion), while properties like 'animation-duration' control how fast the ball bounces. </p>
 
-              <p>Early in 1764 Johnson paid a visit to the Langton family, at their seat of Langton, in Lincolnshire, where he passed some time, much to his satisfaction. His friend Bennet Langton, it will not he doubted, did every thing in his power to make the place agreeable to so illustrious a guest; and the elder Mr. Langton and his lady, being fully capable of understanding his value, were not wanting in attention.</p>
+              <p> Here's a CSS snippet for a bouncing ball:</p>
+                <p>
+                  <code>
+                      lit .ball {
+                      width: 100px;
+                      height: 100px;
+                      border-radius: 50%;
+                      background-color: #4AA2FF;
+                    
+                      animation: bounce 0.5s;
+                      animation-direction: alternate;
+                      animation-timing-function: cubic-bezier(.5,0.05,1,.5);
+                      animation-iteration-count: infinite;
+                    }
+                    
+                    @keyframes bounce {
+                      from { transform: translate3d(0, 0, 0);     }
+                      to   { transform: translate3d(0, 1.25rem, 0); }
+                    }
+                  </code>
+               </p>
 
-              <p>Johnson, during his stay at Langton, had the advantage of a good library, and saw several gentlemen of the neighbourhood. I have obtained from Mr. Langton the following particulars of this period.</p>
+              <p>And here is that snippet in action!</p>
+              <div class="ball"></div>
 
-              <p>He was now fully convinced that he could not have been satisfied with a country living; for, talking of a respectable clergyman in Lincolnshire, he observed, 'This man, Sir, fills up the duties of his life well. I approve of him, but could not imitate him.'</p>
+              <p>One of the key benefits of using CSS animations is the enhanced user experience they offer. Animations can make a website feel more interactive and responsive, providing visual cues and feedback in response to user actions. They can guide users through a flow, draw attention to important elements, or simply add a touch of creativity to a website's design.</p>
 
-              <p>To a lady who endeavoured to vindicate herself from blame for neglecting social attention to worthy neighbours, by saying, 'I would go to them if it would do them any good,' he said, 'What good, Madam, do you expect to have in your power to do them? It is shewing them respect, and that is doing them good.'</p>
+              <p>However, the use of CSS animations extends beyond mere aesthetics. They are often more performance-friendly compared to JavaScript-based animations, particularly for simple effects. This is crucial for ensuring a smooth user experience, especially on devices with limited processing power like smartphones and tablets. Additionally, CSS animations are well-supported across modern web browsers, eliminating the need for additional plugins or complex coding.</p>
 
-              <p>So socially accommodating was he, that once when Mr. Langton and he were driving together in a coach, and Mr. Langton complained of being sick, he insisted that they should go out and sit on the back of it in the open air, which they did. And being sensible how strange the appearance must be, observed, that a countryman whom they saw in a field, would probably be thinking, 'If these two madmen should come down, what would become of me?'</p>
+              <p>When implementing CSS animations, it's important to adhere to some best practices. Firstly, subtlety is key. Overusing animations can overwhelm users and detract from the site's primary content. Aim for a balance where animations enhance the user experience without being distracting. Secondly, consider the performance implications of your animations. Test them across different devices and browsers to ensure they don't negatively impact your site's loading times or responsiveness. Finally, be mindful of accessibility concerns. Some users may have sensitivities to motion or animations, so providing options to reduce or disable animations can make your site more inclusive.</p>
+
+              <p>In conclusion, CSS animations are a powerful tool in a web designer's arsenal. They offer a way to bring websites to life, making them more engaging and interactive. By understanding the basics of how they work, recognizing their benefits, and following best practices, you can effectively integrate animations into your web designs to create memorable and user-friendly experiences.</p>
                           
             </div>
 
           </article>
-
+<!-- section to imbed a youtube video -->
           <section id="myVideo">
 
             <h2>A Short Video</h2>
@@ -206,7 +230,8 @@
     </main>
     <footer>  
       
-        ©2023 - Mike Rohmann
+        ©2023 - Mike Rohmann 
+        <a href="https://www.github.com/mrohmann"> My Github</a>
 
     </footer>
     

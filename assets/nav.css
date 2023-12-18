@@ -17,8 +17,8 @@ main{
 
 /* navbar */
 .navbar{
-    background-color: #333;
-    color: whitesmoke;
+    background-color: #05C3DD;
+    color: #1E22AA;
     display: flex;
     flex-direction: column;
     font-size: 1.5rem;
@@ -50,8 +50,8 @@ main{
 
 /* style all a tags in header and then on hover*/
 .navbar-links a {
-    color: whitesmoke;
-    background-color: #333;
+    color: #1E22AA;
+    background-color: #05C3DD;
     font-size: 2rem;
     padding: 1rem 1.25rem;
     letter-spacing: 2px;
@@ -61,8 +61,8 @@ main{
 
 .navbar-links a:hover,
 .navbar-links a:focus{
-    color: #333;
-    background-color: whitesmoke;
+    color: #05C3DD;
+    background-color: #1E22AA;
     border-radius: 10px;
     outline: none;
 }
