@@ -25,11 +25,13 @@ The Vaporwave color palette is inspired by the aesthetics of the 1980s and 1990s
 
 ![color palette](https://github.com/RVCC-IDMX/about-me-mrohmann/blob/8b1e9c55bda4bc97f9bc377bf1cd5a71d8702490/assets/img/AdobeColor-My%20Color%20Theme.jpeg)
 
-![Contrast Checker Score]()
-![Color Blind Safe Score]()
+![Contrast Checker Score](https://github.com/RVCC-IDMX/about-me-mrohmann/blob/cb954d92bc09282b97c9a1e5d791a00eff645a29/assets/img/ContrastTest.PNG)
+
+![Color Blind Safe Score](https://github.com/RVCC-IDMX/about-me-mrohmann/blob/cb954d92bc09282b97c9a1e5d791a00eff645a29/assets/img/ColorBlindTest.PNG)
 
 ## Citations
 https://colorpalettes.io/vaporwave-color-palette/
+https://color.adobe.com/create/color-accessibility
 
 #### License
 [MIT](https://choosealicense.com/licenses/mit/)
