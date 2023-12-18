@@ -30,7 +30,7 @@ Ultramarine Blue – Hex: #1E22AA
 Light Khaki – Hex: #F0E991 -Text Color
 Light Cyan – Hex: #D1EFED
 
-![color palatte](/assets/img/AdobeColor-My Color Theme.jpeg)
+![color palette](https://github.com/RVCC-IDMX/about-me-mrohmann/blob/8b1e9c55bda4bc97f9bc377bf1cd5a71d8702490/assets/img/AdobeColor-My%20Color%20Theme.jpeg)
 
 ## Citations
 https://colorpalettes.io/vaporwave-color-palette/
