@@ -23,14 +23,10 @@ The blog section was instrumental in learning on how to format text for a readab
 # Color Scheme
 The Vaporwave color palette is inspired by the aesthetics of the 1980s and 1990s, with its bright, neon colors and pastel hues. It is often used to evoke a feeling of nostalgia and to create a dream-like atmosphere. The colors are often used to create a surreal, futuristic vibe, and the palette often includes blues, pinks, purples, and greens.
 
-Magenta – Hex: #C92FBF - Main Background Color
-Purple – Hex: #B26B6
-Blue Ribbon – Hex: #05C3DD
-Ultramarine Blue – Hex: #1E22AA
-Light Khaki – Hex: #F0E991 -Text Color
-Light Cyan – Hex: #D1EFED
-
 ![color palette](https://github.com/RVCC-IDMX/about-me-mrohmann/blob/8b1e9c55bda4bc97f9bc377bf1cd5a71d8702490/assets/img/AdobeColor-My%20Color%20Theme.jpeg)
+
+![Contrast Checker Score]()
+![Color Blind Safe Score]()
 
 ## Citations
 https://colorpalettes.io/vaporwave-color-palette/
