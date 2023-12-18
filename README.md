@@ -19,6 +19,8 @@ The hobbies section was important to introduce the concept of  lists and how the
 
   ## Blog
 The blog section was instrumental in learning on how to format text for a readable page across different size screens. As the screen size changes, it is important to adjust font sizes and layout options to allow the text to be most readable. 
+##
+The nav bar section of the web page is essential to reducing the clutter associated with a mobile display. The hamburger menu is adaptable to different screen sizes, hiding the main options on smaller screens. 
 
 # Color Scheme
 The Vaporwave color palette is inspired by the aesthetics of the 1980s and 1990s, with its bright, neon colors and pastel hues. It is often used to evoke a feeling of nostalgia and to create a dream-like atmosphere. The colors are often used to create a surreal, futuristic vibe, and the palette often includes blues, pinks, purples, and greens.
@@ -39,4 +41,4 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations
 https://codeburst.io/tutorial-make-a-bouncing-ball-entirely-with-css-1e7e3c853a50
 
 #### License
-[MIT](https://choosealicense.com/licenses/mit/)
+About Me © 2023 by Michael Rohmann is licensed under CC BY-NC-ND 4.0 

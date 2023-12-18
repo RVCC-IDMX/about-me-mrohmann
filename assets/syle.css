@@ -4,7 +4,7 @@ body{
     background-color: #9B22B6;
     color: #F0E991;
 }
-h1,h2{
+h1{
     font-size: 60px;
     font-family: Montserrat;
     text-align: center;
@@ -20,6 +20,23 @@ h3, h4, h5, h6{
 header{
     text-align: center;
 }
+
+.nav-toggle {
+    display: none;
+  }
+
+/* Basic styling for the hamburger icon */
+.hamburger {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  /* Hide the menu links on mobile */
+.navbar-links ul {
+    list-style: none;
+    display: none;
+  }
 
 footer a {
     color:#F0E991;
@@ -82,6 +99,7 @@ footer a {
 #gallery {
     border: 6px solid  #05C3DD;
     border-radius: 25px;
+    text-align: center;
 }
 
 #gallery img {
@@ -109,8 +127,8 @@ footer a {
     color: #F0E991;
     padding:20px;
     border-radius: 25px;
-   
 }
+
 
 #lit div p:first-child:first-letter{
     color:#C92FBF;
@@ -131,7 +149,7 @@ footer a {
 #myVideo{
     border: 6px solid  #4AA2FF;
     border-radius: 25px;
-    width:100%;
+    max-width:100%;
     text-align: center;
 
 }
@@ -220,6 +238,10 @@ legend{
 
     }
 
+    #lit h2 {
+        font-size: 20px;
+    }
+
 }
 
 @media screen and (min-width:100em) {
@@ -241,6 +263,33 @@ legend{
         display:block;
     }
 }
+
+/* Hide the menu links on mobile */
+.navbar-links ul {
+    list-style: none;
+    display: none;
+  }
+  
+  /* Display hamburger icon on mobile */
+  @media (max-width: 768px) {
+    .hamburger {
+      display: block;
+    }
+  }
+  
+  /* Show the menu when checkbox is checked */
+  .nav-toggle:checked + .hamburger + .navbar-links ul {
+    display: block;
+  }
+  
+  /* Media query for larger screens */
+  @media (min-width: 768px) {
+    .hamburger {
+      display: none;
+    }
+  
+    .navbar-links ul {
+      display: flex;
+    }
+  }
    
-
-
